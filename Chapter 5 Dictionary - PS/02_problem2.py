@@ -1,0 +1,11 @@
+s = set()
+s.add(input("Enter number:"))
+s.add(input("Enter number:"))
+s.add(input("Enter number:"))
+s.add(input("Enter number:"))
+s.add(input("Enter number:"))
+s.add(input("Enter number:"))
+s.add(input("Enter number:"))
+s.add(input("Enter number:"))
+
+print("Unique words are:", s)
