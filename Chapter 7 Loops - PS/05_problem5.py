@@ -1,13 +1,10 @@
 a = int(input("Enter a number: "))
+space = a - 1
 star = 1
 
 for i in range(1, a + 1):
-
-    for s in range(a - i):
-        print(" ", end="")
-
-    for j in range(star):
-        print("*", end="")
-
-    star += 2
-    print()
+    print(" " * space, end="")
+    space = space - 1
+    print("*" * star, end="")
+    star = star + 2
+    print(" ")
